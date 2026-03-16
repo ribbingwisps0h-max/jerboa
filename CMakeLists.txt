@@ -51,8 +51,8 @@ endif()
 
 # ─── Source files ─────────────────────────────────────────────────────────
 set(JTP_SOURCES
-    JTP.h
-    JTP.cpp
+    jtp.h
+    jtp.cpp
     main.cpp
 )
 
