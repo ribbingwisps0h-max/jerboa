@@ -33,7 +33,7 @@ if(NOT (CMAKE_SYSTEM_NAME STREQUAL "Darwin" OR
 endif()
 
 # ─── Target ───────────────────────────────────────────────────────────────
-add_executable(jtp JTP.h JTP.cpp main.cpp
+add_executable(jtp jtp.h jtp.cpp main.cpp
     README.md)
 target_include_directories(jtp PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 
